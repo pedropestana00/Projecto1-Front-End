@@ -1,0 +1,22 @@
+[data-bs-theme="light"] {
+  --chat-question-bg: #28a745; 
+}
+
+[data-bs-theme="dark"] {
+  --chat-question-bg: #6c757d; 
+}
+
+
+[data-bs-theme="custom-made-mode"] {
+  --bs-body-color: #ffffff;
+  --bs-body-bg: #0000ff;
+  --bs-tertiary-bg: #004085;    
+  --bs-link-color: #ffffff;
+  --chat-question-bg: #004085; 
+}
+
+
+.message.question {
+  background-color: var(--chat-question-bg);
+  color: white;
+}

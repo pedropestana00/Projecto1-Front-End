@@ -1,0 +1,105 @@
+/* Exemplo de CSS para o seu componente */
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.question {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end; /* Alinha à direita */
+  margin-left: auto;
+}
+
+.answer {
+  background-color: #f1f1f1;
+  color: black;
+  align-self: flex-start; /* Alinha à esquerda */
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; /* Mesma altura que definiste para a página */
+    width: 100%;
+}
+
+.login-card {
+    background-color: var(--bs-body-bg); /* Respeita o tema dark/light */
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px; /* Largura da caixa */
+}
+
+.form-control {
+    padding: 0.75rem;
+    border-radius: 8px;
+}
+
+/* Custom Scrollbar */
+.messages-list::-webkit-scrollbar {
+  width: 6px;
+}
+.messages-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+/* Glassmorphism e Layout */
+.chat-container {
+  background-color: #f8f9fa; /* Fundo suave */
+}
+
+/* Input Area */
+.input-wrapper {
+  background: white;
+  border-radius: 15px;
+  padding: 8px 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+}
+
+.custom-input {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.send-btn {
+  border-radius: 10px;
+  background: #0d6efd;
+  color: white;
+  transition: all 0.2s;
+}
+
+.send-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(13, 110, 253, 0.3);
+}
+
+/* Message Bubbles - Estilize o componente <Message /> internamente se possível */
+.message-user {
+  background: #0d6efd;
+  color: white;
+  border-radius: 18px 18px 0 18px;
+  padding: 10px 15px;
+  align-self: flex-end;
+}
+
+.message-bot {
+  background: white;
+  color: #333;
+  border-radius: 18px 18px 18px 0;
+  padding: 10px 15px;
+  align-self: flex-start;
+  border: 1px solid #eee;
+}
+
