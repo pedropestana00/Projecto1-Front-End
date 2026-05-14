@@ -1,7 +1,7 @@
 # Projecto 1 - Front-End
 
 > Uma aplicação front-end moderna construída com React, TypeScript e integração com Google Generative AI e Firebase.
-> !!!!!!!!IMPORTANTE!!!!!!!!
+> !!!!!!!!  IMPORTANTE  !!!!!!!!
 > para fazer log-in use os seguinte detalhes:
 > user: teste@frontend.uma.pt
 > password: 123456
